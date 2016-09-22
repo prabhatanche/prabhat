@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    "CAREER STAB"
+  </title>
+</head>
+
+<body background="sky.jpg">
+
+  <form>
+    <div align="right">
+      <img src="pic.jpg" title=" html5" alt="HTML5" style="width:204px;height:128px;">
+    </div>
+
+    <DIV ALIGN="LEFT|CENTER" <H1>
+      <FONT SIZE="8" COLOR="red">LEARN HTML IN 2 DAYS....</FONT>
+      </H1>
+
+      <H2>
+
+        <FONT SIZE="4" COLOR="#006600">Please fill registration form to proceed</FONT>
+      </H2>
+      <FONT SIZE="4" COLOR="	 #00e600">
+        First name:<input type="text" name="firstname" placeholder="FIRST NAME" required /> Middle name:<input type="text"
+          name="middlename" placeholder="MIDDLE NAME"> Last name:<input type="text" name="lastname" placeholder="LAST NAME"
+          required />
+
+      </FONT>
+      <BR><br>
+
+      <FONT SIZE="4" COLOR="#660033">
+        E-Mail: <input type="email" name="email">
+      </FONT>
+      <br><br>
+
+      <FONT SIZE="4" COLOR="#8C0073">
+        Tel/Mobil:<select>
+  <option value="PERSONAL">PERSONAL</option>
+  <option value="HOME">HOME</option>
+  <option value="BUSINESS">BUSINESS</option>
+  <input id="phonenum" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="xxx-xxx-xxxx" required >
+  </select>
+      </FONT>
+      <br><br> GENDER:
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+
+
+      <FONT SIZE="4" COLOR="8F701C">
+        EXPERIENCE:<input type="number" name="points" max="35" min="5" step="2" value="25">
+      </FONT>
+      <br><br>
+
+
+      <FONT SIZE="4" COLOR="FF3D2E">
+        DATE OF DIRTH:<br>
+        <input type="date" name="bday" min="01-01-1800" max="31-12-2015" pattern="^\d{2}-\d{2}-\d{4}$" placeholder="mm-dd-yyyy">
+      </FONT>
+      <br><br>
+
+      <FONT SIZE="4" COLOR="black">
+        pick one color:
+        <!-- <select><option value="RED">RED</option>
+<option value="BLUE">BLUE</option>
+<option value="GREEN">GREEN</option>
+</select> --><input type="color" name="favcolor">
+        <br><br>
+        <div align="center">
+          <!-- Start VideoLightBox.com BODY section -->
+          <video height="auto" controls="controls" preload="none" onclick="this.play()">
+            <source src="s.mp4 " type="video/mp4">
+          </video>
+          <!-- </video>
+<video width="600" controls>
+<source src="s.mp4 " type="video/mp4" codecs="avc1.42E01E, mp4a.40.2"/>
+</video> -->
+          <!-- End VideoLightBox.com BODY section -->
+        </div>
+
+        <br><br>
+
+        <font size="5" color="4C331A">
+          Adele:hello</font>
+        <audio controls>
+          <source src="adele hello.mp3" type="audio/mp3">
+        </audio>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </DIV>
+  </form>
+</body>
+
+</html>
